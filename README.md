@@ -6,14 +6,14 @@ A simple module verify whether a gmail address is valid. Made after I read [x0rz
 
 ## Credit / how this works.
 
-This is only a couple of minutes work. All credit belongs to [x0rz](https://blog.0day.rocks).
+This is only a couple of minutes work. All credit belongs to [x0rz](https://blog.0day.rocks). For no particular reason, versiosn since 1.03 use (saml's technique)[https://gist.github.com/saml/2268291].
 
 ## Usage
 
-	const isGmailAccountValid = require('is-gmail-account-valid')
+  const isGmailAccountValid = require('is-gmail-account-valid')
 
-	isGmailAccountValid('mike.maccana', function(err, result){
-		console.log(err, result)
-	})
+  isGmailAccountValid('mike.maccana', function(err, result){
+    console.log(err, result)
+  })
 
 `result` will be `true` for valid accounts and `false` for invalid accounts.

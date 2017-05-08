@@ -1,6 +1,6 @@
 {
   "name": "is-gmail-account-valid",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Check whether a gmail account is valid or not",
   "main": "index.js",
   "scripts": {
@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/mikemaccana/is-gmail-account-valid#readme",
   "dependencies": {
+    "lodash": "^4.17.4",
     "superagent": "^3.5.2"
   }
 }

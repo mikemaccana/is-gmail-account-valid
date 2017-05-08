@@ -6,7 +6,6 @@ suite('checks known mail accounts', function(){
 
 	test('known used account', function(done){
 		isGmailAccountValid('mike.maccana', function(err, result){
-			log(err, result)
 			assert.equal(result, true)
 			done()
 		})

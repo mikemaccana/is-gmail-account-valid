@@ -15,7 +15,11 @@ module.exports = function(username, cb){
 	};
 
 	superagent
-	.post('https://accounts.google.com/InputValidator?resource=signup&service=mail')
+	.post('https://accounts.google.com/InputValidator')
+	.query({
+		resource: 'signup',
+		service: 'mail'
+	})
 	.send(body)
 	.end(function(err, res){
 

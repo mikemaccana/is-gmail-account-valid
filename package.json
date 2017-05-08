@@ -1,6 +1,6 @@
 {
   "name": "is-gmail-account-valid",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Check whether a gmail account is valid or not",
   "main": "index.js",
   "scripts": {

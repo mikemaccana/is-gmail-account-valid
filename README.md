@@ -1,6 +1,6 @@
 ## Find out if a gmail address is used or not
 
-A quick script to verify whether a gmail address is valid. Made after I read [x0rz's article](https://blog.0day.rocks/abusing-gmail-to-get-previously-unlisted-e-mail-addresses-41544b62b2) on the topic and the techique used.
+A simple module verify whether a gmail address is valid. Made after I read [x0rz's article](https://blog.0day.rocks/abusing-gmail-to-get-previously-unlisted-e-mail-addresses-41544b62b2) on the topic and the techique used.
 
 ## Credit / how this works.
 

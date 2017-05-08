@@ -1,0 +1,29 @@
+{
+  "name": "is-gmail-account-valid",
+  "version": "1.0.0",
+  "description": "Check whether a gmail account is valid or not",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikemaccana/is-gmail-account-valid.git"
+  },
+  "keywords": [
+    "gmail",
+    "email",
+    "check",
+    "valid",
+    "verify"
+  ],
+  "author": "Mike MacCana <mike.maccana@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikemaccana/is-gmail-account-valid/issues"
+  },
+  "homepage": "https://github.com/mikemaccana/is-gmail-account-valid#readme",
+  "dependencies": {
+    "superagent": "^3.5.2"
+  }
+}

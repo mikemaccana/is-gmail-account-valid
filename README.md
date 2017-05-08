@@ -10,10 +10,10 @@ This is only a couple of minutes work. All credit belongs to [x0rz](https://blog
 
 ## Usage
 
-  const isGmailAccountValid = require('is-gmail-account-valid')
+	const isGmailAccountValid = require('is-gmail-account-valid')
 
-  isGmailAccountValid('mike.maccana', function(err, result){
-    console.log(err, result)
-  })
+	isGmailAccountValid('mike.maccana', function(err, result){
+		console.log(err, result)
+	})
 
 `result` will be `true` for valid accounts and `false` for invalid accounts.
